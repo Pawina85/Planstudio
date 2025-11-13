@@ -118,7 +118,7 @@ export default function CartLogin() {
                     textTransform: 'uppercase',
                     letterSpacing: '0.5px'
                 }}>
-                    <div>PRODUCT</div>
+                    <div>PRODUCTs</div>
                     <div style={{ textAlign: 'center' }}>PRICE</div>
                     <div style={{ textAlign: 'center' }}>QTY</div>
                     <div style={{ textAlign: 'center' }}>TOTAL</div>
