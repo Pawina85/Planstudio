@@ -1,19 +1,19 @@
 const navLinks = [
     {
         id: "Shop / Gallery",
-        title: "Shop / Gallery",
+        title: "Shop / Gallery", href: "/#gallery"
     },
     {
         id: "About Us",
-        title: "About Us",
+        title: "About Us", href: "/#about"
     },
     {
         id: "Contact",
-        title: "Contact",
+        title: "Contact", href: "/#contact"
     },
     {
         id: "Cart / Login",
-        title: "Cart / Login",
+        title: "Cart / Login", href: "/#cart-login"
     },
 ];
 

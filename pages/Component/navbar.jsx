@@ -1,5 +1,6 @@
 import { gsap } from 'gsap';
 import { useEffect, useRef } from 'react';
+import Link from 'next/link';
 import { navLinks } from "../../constants/index";
 
 export default function Navbar() {
@@ -81,14 +82,16 @@ export default function Navbar() {
         }}>
 		 {navLinks.map((link) => (
 			<li key={link.id}>
-			 <a href={`#${link.id}`} style={{
+             <Link href={link.href} style={{
                 textDecoration: 'none',
                 color: '#2d5a27',
                 fontWeight: '500',
                 fontSize: 'clamp(0.9rem, 2vw, 1.1rem)',
                 transition: 'color 0.3s ease',
                 cursor: 'pointer'
-             }}>{link.title}</a>
+             }}>
+              {link.title}
+            </Link>
 			</li>
 		 ))}
 		</ul>

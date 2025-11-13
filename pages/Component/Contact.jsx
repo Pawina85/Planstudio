@@ -115,7 +115,7 @@ export default function Contact() {
   };
 
   return (
-    <section ref={containerRef} style={{
+    <section id="contact" ref={containerRef} style={{
       padding: '80px 20px',
       maxWidth: '1200px',
       margin: '0 auto',
